@@ -1,9 +1,7 @@
 import Head from 'next/head'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import YouTubeCardSubs from "../components/youtube/YouTubeCardSubs"
-import YouTubeCardViews from '../components/youtube/YouTubeCardViews'
-import YouTubeCardVids from '../components/youtube/YouTubeCardVids'
+
 
 export default function home(){
     return (
@@ -14,13 +12,13 @@ export default function home(){
             <h1 className="text-center">DashBoard</h1>
             <Row>
                 <Col md>
-                <p><YouTubeCardSubs/></p>
+                <p>suscribers</p>
                 </Col>
                 <Col md>
-                <p><YouTubeCardViews/></p>
+                <p>Views</p>
                 </Col>
                 <Col md>
-                <p><YouTubeCardVids/></p>
+                <p>videos</p>
                 </Col>
             </Row>
         </div>
